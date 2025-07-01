@@ -1,0 +1,59 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    background: radial-gradient(circle, #1b1b2f, #162447);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#rewardSection {
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid #00adb5;
+    box-shadow: 0 0 20px rgba(0, 173, 181, 0.5);
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    transition: 0.3s;
+}
+
+#rewardSection:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 30px rgba(0, 173, 181, 0.8);
+}
+
+#rewardText {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #f8f8f8;
+    text-shadow: 1px 1px 5px #000;
+}
+
+#rewardImage {
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00adb5;
+    border: 2px solid #00fff5;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #00adb5;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 173, 181, 0.3);
+}
+
+button:hover {
+    background-color: #00fff5;
+    color: #111;
+    box-shadow: 0 4px 20px rgba(0, 255, 255, 0.5);
+    transform: scale(1.05);
+}
